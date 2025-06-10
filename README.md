@@ -16,7 +16,7 @@ pip install "numpy<1.24" pydelatin wandb tqdm opencv-python ipdb pyfqmr flask di
 ```
 
 ## Dataset Preparation
-I put the motions_amass_CMU.yaml file in ASE/ase/poselib/data/configs as an example. The .npy files can be gotten from method2. If you want to use other training motions, you should edit your own yaml configs. You may skip the data preparation and test the code with the example motions in the motions_dance_release.pkl.
+I put the motions_amass_CMU.yaml file in ASE/ase/poselib/data/configs as an example. The .npy files can be gotten from method2. If you want to use other training motions, you should edit your own yaml configs. The dataset curation is really important, and the key is the sampling of data. We are trying to develop a good curation method, but sometimes manually curate your data is a better choice. You may skip the data preparation and test the code with the example motions in the motions_dance_release.pkl.
 
 ### Method 1: Using CMU FBX
 
